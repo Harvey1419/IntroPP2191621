@@ -13,4 +13,4 @@ Nota: Si estás en macOS con Apple Silicon M1 y arquitectura ARM_64 debes utiliz
 
 #### Al inicializar el código, podrás escribir las filas y columnas de ambas matrices, con el fin de poder realizar pruebas con matrices cuadradas y no cuadradas, también del tamaño deseado.
 
-
+<img width="1072" alt="image" src="https://github.com/Harvey1419/IntroPP2191621/assets/67378380/14daa80c-92b7-4255-bce1-e1b1967747e0">
