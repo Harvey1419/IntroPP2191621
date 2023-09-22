@@ -1,5 +1,4 @@
-### Como inicializar el código
-
+## Como inicializar el código
 1.  Descargar el repositorio usando: 
 ``` git clone  https://github.com/Harvey1419/IntroPP2191621.git```
 3.	 Dirigirse a la carpeta de taller1: 
@@ -49,3 +48,12 @@ Multiplicación dos matrices `m1` y `m2` y almacena el resultado en la matriz `r
 
 En resumen, este algoritmo es una implementación básica de la multiplicación de matrices utilizando tres bucles anidados. Es eficiente en términos de tiempo si las matrices no son demasiado grandes, pero su tiempo de ejecución puede crecer rápidamente para matrices grandes debido a su complejidad temporal.
 
+## Comparación de tiempos de ejecución
+En esta primera tanta de comparaciones podemos observar que nuestro algoritmo se ejecuta de manera más rápida en ejecución normal que una ejecución en paralelo.
+![image](https://github.com/Harvey1419/IntroPP2191621/assets/67378380/b7d416d1-36ea-4bce-95c3-ab46a1b3466c)
+
+Sin embargo a medida que aumentamos mucho más la cantidad de iteraciones, podemos ver como nuestro algoritmo es más velóz usando paralelismo
+![image](https://github.com/Harvey1419/IntroPP2191621/assets/67378380/9bb568b9-d27d-471a-b049-9f0b72847bab)
+
+Aunque si seguimos aumentando la cantidad, volveremos a un punto igual a nuestras primeras pruebas, y entre más grande, más optimo será nuestro algoritmo sin paralelismo.
+![image](https://github.com/Harvey1419/IntroPP2191621/assets/67378380/a9639644-9789-4fc8-bc88-c8a9df13479e)
