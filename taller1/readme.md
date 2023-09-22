@@ -51,7 +51,7 @@ En resumen, este algoritmo es una implementación básica de la multiplicación 
 ## Comparación de tiempos de ejecución
 En esta primera tanta de comparaciones podemos observar que nuestro algoritmo se ejecuta de manera más rápida en ejecución normal que una ejecución en paralelo.
 ![image](https://github.com/Harvey1419/IntroPP2191621/assets/67378380/b7d416d1-36ea-4bce-95c3-ab46a1b3466c)
-
+A medida que crece el número de iteraciones, el tiempo de ejecución se va acercando.
 ![image](https://github.com/Harvey1419/IntroPP2191621/assets/67378380/9bb568b9-d27d-471a-b049-9f0b72847bab)
 
 Aunque si seguimos aumentando la cantidad, volveremos a un punto igual a nuestras primeras pruebas, y entre más grande, más optimo será nuestro algoritmo sin paralelismo.
